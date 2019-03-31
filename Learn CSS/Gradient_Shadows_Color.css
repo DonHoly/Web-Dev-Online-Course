@@ -1,0 +1,21 @@
+/*NOT ALL BROWSERS SUPPORT GRADIENTS*/
+
+.container {
+/*    background: linear-gradient(#00ccff, #ccf5ff);*/
+/*Above: This is the basic gradient tag. Below: We can also change the direction of the gradiant below*/
+    background: linear-gradient(to left, #00ccff, #ccf5ff);
+    box-shadow: 3px 5px 3px black;
+/* This adds a shadow to the container background we created. It uses the same principles we used below for the text shadows.*/
+}
+
+h1 {
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
+/* This allows us to create shadows. The style is saying 2 pixels on our horizontals axis and 2 pixels on our vertical axis. This puts the shadow as the bottom right, if we were to do -2px -2px, it would put it at the top left. We can also add any color after the pixel declaration. We can smooth the black shadow by adding a pixel count before the color*/
+}
+
+h2 {
+    color: rgb(0, 204, 255);
+    text-shadow: 1px 1px 3px darkblue;
+/*rgb lets us call to a color by using 3 valuse. This is used to find a specific color*/
+}

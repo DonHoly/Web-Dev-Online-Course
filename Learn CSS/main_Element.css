@@ -1,0 +1,24 @@
+body {
+    background-color: #cc99ff;
+}
+/*Below: Targing the elements directly means every h1 header in my html file will have this styling*/
+h1 {
+    color: red;
+    text-align: center;
+/*    This tag will center text on the webpage*/
+}
+/*Below is how we call to a class that was declared in the html file*/
+
+.square {
+/*Above: We call to a class by adding the period and typing the class name*/
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: auto;
+/*    This style puts equal margins on each side of the element and centers it on the screen*/
+    
+}
+#circle {
+    color: yellow;
+    font-size; 40px;
+}

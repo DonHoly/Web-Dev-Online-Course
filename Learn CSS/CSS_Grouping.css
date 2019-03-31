@@ -1,0 +1,29 @@
+/*Grouping in CSS is a technique used to reduce code redundancy. It will save time from repeating the same style rules. I will also help browser open your page faster.*/
+
+body {
+    background-image: url(Zebra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2, h3, .class, #id {
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
+    line-height: 1rem;
+    font-family: sans-serif
+}
+/* This lets me appy styling to all h1, h2, h3 headers. I can also add a class or id to the list. Everything must be seperated by commas*/
+
+
+.borderImg {
+    border: 10px solid red;
+}
+
+ul li {
+    color: white;
+    font-size: 20px;
+}
+
+ul > li {
+    color: yellow
+}

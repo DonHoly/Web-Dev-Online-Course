@@ -1,0 +1,12 @@
+.container {
+    background-color: darkslateblue;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    color: rgb(0, 204, 255);
+/*rgb lets us call to a color by using 3 valuse. This is used to find a specific color*/
+}
